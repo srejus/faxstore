@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaxStore </title>
+    <link rel="icon" type="image/x-icon" href="images/logo_trans.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/nav.css">
+    <link rel="stylesheet" href="static/product.css">
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '2635532289824037'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=2635532289824037&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C6M6S1BQT5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C6M6S1BQT5');
+</script>
+<!-- End Facebook Pixel Code -->
+</head>
+<body>
+
+    <style>
+            
+        .badge {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       background-color: red;
+       color: white;
+       padding: 5px 10px;
+       border-radius: 50%;
+   }
+
+   .new-tag{
+       width: 50px;
+       height: 30px;
+       border: none;
+       color: white;
+       background-color: red;
+       border-radius: 5px;
+       margin-bottom: 15px;
+       font-size: 12px;
+   }
+      </style>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white border-bottom">
+        <div class="container nav">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo_new.png" class="logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-home"></i>&nbsp;Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-user"></i>&nbsp;Profile</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="width: 100%;height: 35px;
+    padding: 2px;background-color: black;color: white;">
+        <marquee>
+            The website is currently undergoing maintenance, so only you can view the products on the site. Please DM us on Instagram to place orders.....</marquee>
+    </div>
+
+
+    <div class="container" style="display: flex;flex-direction: column;justify-content: center;align-items: center;height: 50vh;">
+        <h1 style="font-size: 50px;font-weight: 800;">Elevate Your Style with FaxStore</h1>
+        <p>For Orders Visit</p>
+        <button onclick="window.location.href='https://www.instagram.com/faxstoreclothing/'" class="btn btn-primary">Instagram</button>
+
+        <style>
+            .btn{
+                width: 200px;
+            }
+            @media(max-width:852px){
+                .btn{
+                    width: 100%;
+                }
+            }
+        
+        </style>
+    </div>
+
+    <!-- Products Section -->
+
+
+    <div class="search-bar-div" style="flex-wrap: wrap;margin-left: 5px;">
+            
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/3#product'" src="/static/images/product_images/IMG_2565.jpeg" class="product-cover" alt="">
+           
+            <span class="badge">sale</span>
+            
+            <p><b>Minimalist Black T Shirt Cotton</b></p>
+            
+            <p>4.0 <i class="fa fa-star" style="color: gold;"></i></p>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 650.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;">Only Limited Stock Left</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/3?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/3'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/25#product'" src="/static/images/product_images/1974_classic.png" class="product-cover" alt="">
+           
+            <span class="badge">sale</span>
+            
+            <p><b>Retro White Cotton TShirt</b></p>
+            
+            <p>4.7 <i class="fa fa-star" style="color: gold;"></i></p>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 699.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;">Only Limited Stock Left</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/25?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/25'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/33#product'" src="/static/images/product_images/f0ce9c3a-5a92-4c83-943a-81b4b84a9f37.jpeg" class="product-cover" alt="">
+           
+            <p><b>Have Funds II Minimal Oversized</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 699.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/33?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/33'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/26#product'" src="/static/images/product_images/samurai.png" class="product-cover" alt="">
+           
+            <p><b>Samurai Warrior White Cotton TShirt</b></p>
+            
+            <p>4.3 <i class="fa fa-star" style="color: gold;"></i></p>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 699.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/26?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/26'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/27#product'" src="/static/images/product_images/socool.png" class="product-cover" alt="">
+           
+            <p><b>So Cool Minimal White TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;">599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/27?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/27'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/28#product'" src="/static/images/product_images/teashirt.png" class="product-cover" alt="">
+           
+            <p><b>Funny White Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;">599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/28?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/28'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/29#product'" src="/static/images/product_images/good_vibes.png" class="product-cover" alt="">
+           
+            <p><b>Good Vibes White Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 650.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/29?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/29'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/30#product'" src="/static/images/product_images/black_tshirt_1.png" class="product-cover" alt="">
+           
+            <p><b>Graffiti Monkey Black Cotton TShirt</b></p>
+            
+            <p>4.8 <i class="fa fa-star" style="color: gold;"></i></p>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 650.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/30?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/30'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/31#product'" src="/static/images/product_images/adventure_black_tshirt.png" class="product-cover" alt="">
+           
+            <span class="badge">sale</span>
+            
+            <p><b>The Adventure Black Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 720.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/31?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/31'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/32#product'" src="/static/images/product_images/cd5d2eef-a97c-48f7-a173-3d54bcb36c7f.jpeg" class="product-cover" alt="">
+           
+            <span class="badge">New</span>
+            
+            <p><b>Have Funds Minimal I Oversized Tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>900.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/32?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/32'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/23#product'" src="/static/images/product_images/Gym_Lover_Shark.png" class="product-cover" alt="">
+           
+            <p><b>GYM Lover Shark White TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 699.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/23?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/23'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/34#product'" src="/static/images/product_images/ultimate_gym.png" class="product-cover" alt="">
+           
+            <span class="badge">sale</span>
+            
+            <p><b>GYM Motivation Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/34?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/34'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/35#product'" src="/static/images/product_images/gym.png" class="product-cover" alt="">
+           
+            <p><b>GYM Motivation Black TShirt Cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/35?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/35'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/36#product'" src="/static/images/product_images/work_hard.png" class="product-cover" alt="">
+           
+            <p><b>Work Hard Quote Black TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 499.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/36?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/36'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/37#product'" src="/static/images/product_images/its_tym_to_train.png" class="product-cover" alt="">
+           
+            <p><b>Time to Train Quote Black Tshirt Cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/37?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/37'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/38#product'" src="/static/images/product_images/never_give_up.png" class="product-cover" alt="">
+           
+            <p><b>Never Give Up Quote TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/38?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/38'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/39#product'" src="/static/images/product_images/retro_black_car_tshirt_2.png" class="product-cover" alt="">
+           
+            <p><b>Car Retro Black TShirt Cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/39?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/39'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/40#product'" src="/static/images/product_images/retro_black_car_tshirt_1.png" class="product-cover" alt="">
+           
+            <p><b>Black Retro Car Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 599.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/40?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/40'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/41#product'" src="/static/images/product_images/music_black_tshirt.png" class="product-cover" alt="">
+           
+            <p><b>Music Lover Black Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>700.0 ₹</strike> 550.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/41?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/41'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/14#product'" src="/static/images/product_images/3b5e9834-d89e-4ea4-a7e3-7a4e0f2af01a.jpeg" class="product-cover" alt="">
+           
+            <p><b>Malabari Banger Tshirt Cotton Black</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 699.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/14?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/14'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/4#product'" src="/static/images/product_images/IMG_2566.jpeg" class="product-cover" alt="">
+           
+            <span class="badge">sale</span>
+            
+            <p><b>Woke not broke black Tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>950.0 ₹</strike> 895.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/4?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/4'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/5#product'" src="/static/images/product_images/IMG_2569.jpeg" class="product-cover" alt="">
+           
+            <p><b>Funny Quote Black Tshirt Cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>950.0 ₹</strike> 895.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/5?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/5'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/8#product'" src="/static/images/product_images/IMG_2881.jpeg" class="product-cover" alt="">
+           
+            <p><b>Player Tshirt Cotton Black</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 795.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/8?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/8'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/9#product'" src="/static/images/product_images/3d1fdc61-2b2c-4da0-bea1-99e6492c7135.jpeg" class="product-cover" alt="">
+           
+            <p><b>Funny Quote Tshirt Cotton Black</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 795.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/9?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/9'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/10#product'" src="/static/images/product_images/b8f127f7-7bf4-4282-8c78-1de3ea8a10cc.jpeg" class="product-cover" alt="">
+           
+            <p><b>Listen to me Tshirt Cotton Black</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 795.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/10?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/10'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/11#product'" src="/static/images/product_images/12ef9a68-fb67-47cf-a384-e105c18726bb.jpeg" class="product-cover" alt="">
+           
+            <p><b>Woke not broke black cotton tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 795.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/11?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/11'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/12#product'" src="/static/images/product_images/ded97ab4-c13a-40f3-a958-e71b6b2bf423.jpeg" class="product-cover" alt="">
+           
+            <p><b>Boogie Hoodie Black Minimal</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>1050.0 ₹</strike> 970.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/12?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/12'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/13#product'" src="/static/images/product_images/2f7f2824-4aaf-422b-8dc7-064684399535.jpeg" class="product-cover" alt="">
+           
+            <p><b>“Coffee Please” Black Hoodie</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>1050.0 ₹</strike> 970.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/13?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/13'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/24#product'" src="/static/images/product_images/Cool_Dog.png" class="product-cover" alt="">
+           
+            <p><b>Stay Cool White Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 720.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/24?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/24'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/15#product'" src="/static/images/product_images/IMG_3159_PwryTxb.jpeg" class="product-cover" alt="">
+           
+            <p><b>Funny black Tshirt cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>950.0 ₹</strike> 850.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/15?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/15'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/16#product'" src="/static/images/product_images/2d060216-7135-413f-b471-33a9c4661071.jpeg" class="product-cover" alt="">
+           
+            <p><b>Time Tshirt black cotton Minimal</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>950.0 ₹</strike> 850.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/16?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/16'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/17#product'" src="/static/images/product_images/7176b255-9d96-418d-a124-47b829c571e6.jpeg" class="product-cover" alt="">
+           
+            <p><b>Be the Best Tshirt black Cotton</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 750.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/17?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/17'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/18#product'" src="/static/images/product_images/black_tshirt_2.png" class="product-cover" alt="">
+           
+            <p><b>Art Minimal Black Cotton Tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 550.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/18?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/18'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/19#product'" src="/static/images/product_images/action_GYnduOK.png" class="product-cover" alt="">
+           
+            <p><b>Adventure Minimal Black Cotton Tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>850.0 ₹</strike> 750.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/19?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/19'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/20#product'" src="/static/images/product_images/action_WoUjXfo.png" class="product-cover" alt="">
+           
+            <p><b>Hope Minimal Black Cotton Tshirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 695.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/20?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/20'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/21#product'" src="/static/images/product_images/action_ZLYsOnR.png" class="product-cover" alt="">
+           
+            <p><b>Minimal Black Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>800.0 ₹</strike> 740.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/21?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/21'">Buy Now</button> -->
+        </div>
+        
+        <div class="product-card" style="position: relative; display: inline-block;height:500px;border: none;">
+            <img onclick="window.location.href='/products/22#product'" src="/static/images/product_images/Untitled_design_1.png" class="product-cover" alt="">
+           
+            <p><b>Hacker Cat White Cotton TShirt</b></p>
+            
+            <button class="new-tag">
+               <b>NEW</b>
+            </button>
+            
+            
+            <p style="margin-top: -10px;"><strike>750.0 ₹</strike> 650.0 ₹</p><br>
+            
+            
+            <p style="color: red;margin-top: -15px;opacity: 0;">Limited Stock</p>
+            
+            <!-- <button class="btn btn-secondary w-100" style="margin-top: -15px;" onclick="window.location.href='/products/add-to-cart/22?redirect=home'">Add to Cart</button>
+            <button class="btn btn-primary w-100" style="margin-top: 5px;"  onclick="window.location.href='/products/add-to-cart/22'">Buy Now</button> -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Product Section Ends -->
+    
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
