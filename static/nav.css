@@ -1,0 +1,71 @@
+.nav{
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 70px;
+}
+
+
+.navbar .bg-white border-bottom{
+    background-color: white;
+}
+
+.logo{
+    width: 70px;
+    margin-bottom: -50px;
+}
+
+/* .collapse{
+    padding-top: 50px;
+    margin-top: 25px;
+} */
+
+/* footer css */
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    height: 290px;
+    background-color: black;
+    color: white;
+    margin-bottom: -20px;
+}
+
+footer .section{
+    padding: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .fa{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+
+@media(max-width:852px){
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer .section{
+        width: 100%;
+    }
+
+    .nav{
+        height: auto;
+    }
+
+    .logo{
+        margin-bottom: 0px;
+    }
+}
